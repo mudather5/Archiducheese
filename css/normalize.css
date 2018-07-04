@@ -22,7 +22,10 @@ html {
 
 body {
   margin: 0;
+	background-color: brown;
 }
+
+
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
