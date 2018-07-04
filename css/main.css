@@ -20,7 +20,8 @@ header{
     margin-left: auto;
     padding-left: 10px;
     padding-right: 10px;
-	background-image: url(img/logo-normal.svg)
+	background-image: url(img/logo-normal.svg);
+	display: block;
 	
 }
 
