@@ -6,7 +6,7 @@ html {
 }
 
 header{
-	background-color: #F5F5F5;;
+	background-color: #F5F5F5;
 	position: fixed;
 	width: 100%;
 	padding: 15px;
@@ -30,6 +30,36 @@ header{
 	margin-top: 100px;
 }
 
+
+
+
+.mediam{
+	display: flex;
+}
+.car{
+	height: 200px;
+	margin-top: 100px;
+}
+
+
+footer{
+	margin: auto;
+	margin-bottom: auto;
+	background-color: #F5F5F5;
+	height: 250px;
+}
+.archidu{
+	margin-right: auto;
+}
+.colon{
+	margin-left: auto;
+}
+.contact{
+	margin-right: 20px;
+}
+.pay{
+	margin-left: 20px;
+}
 
 
 
