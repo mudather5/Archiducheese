@@ -4,6 +4,10 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+body{
+	max-width: none;
+	width: auto;
+}
 
 header{
 	background-color: #F5F5F5;
@@ -12,6 +16,10 @@ header{
 	padding: 15px;
 	height: 70px;
 	border: none;
+	background-image: url(file:///home/mudather/Bureau/Archiducheese%0A/img/logo-bebe.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	
 }
 
 .header{
@@ -20,10 +28,11 @@ header{
     margin-left: auto;
     padding-left: 10px;
     padding-right: 10px;
-	background-image: url(img/logo-normal.svg);
 	display: block;
 	
 }
+
+
 
 
 .colon-1{
@@ -46,7 +55,8 @@ footer{
 	margin: auto;
 	margin-bottom: auto;
 	background-color: #F5F5F5;
-	height: 250px;
+	height: 300px;
+	border: solid 1px #F5F5F5;
 }
 .archidu{
 	margin-right: auto;
@@ -59,6 +69,15 @@ footer{
 }
 .pay{
 	margin-left: 20px;
+}
+
+
+.last{
+	display: flex;
+	background: gray;
+	width: 100%;
+	position: sticky;
+	margin-top: auto;
 }
 
 
