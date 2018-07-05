@@ -16,19 +16,22 @@ header{
 	padding: 15px;
 	height: 70px;
 	border: none;
-	background-image: url(file:///home/mudather/Bureau/Archiducheese%0A/img/logo-bebe.svg);
+	background-image: url(../img/4.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: right;
+	
 	
 }
 
 .header{
-	max-width: 1730px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-	display: block;
+	background-color: #F5F5F5;
+	height: 100px;
+	position: relative;
+	background-image: url(../img/logo-bebe.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	
 	
 }
 
@@ -36,7 +39,8 @@ header{
 
 
 .colon-1{
-	margin-top: 100px;
+	margin-top: 6px;
+	color: #777;
 }
 
 
@@ -57,6 +61,7 @@ footer{
 	background-color: #F5F5F5;
 	height: 300px;
 	border: solid 1px #F5F5F5;
+	color: #777;
 }
 .archidu{
 	margin-right: auto;
@@ -70,15 +75,10 @@ footer{
 .pay{
 	margin-left: 20px;
 }
-
-
-.last{
-	display: flex;
-	background: gray;
-	width: 100%;
-	position: sticky;
-	margin-top: auto;
+.colon{
+	color: #777;
 }
+
 
 
 
