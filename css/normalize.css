@@ -22,6 +22,10 @@ html {
 
 body {
   margin: 0;
+	color: #777;
+  max-width: 1308px;
+  width: 100%;
+  
 }
 
 
@@ -32,7 +36,8 @@ body {
 	background-image: url(../img/logo-bebe.svg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 210px 80px;
+	
 	
 	
 }
@@ -55,18 +60,55 @@ h6{
 	display: flex;
 }
 #center-image{
-	margin-left: 70px;
+	margin-left: 1px;
 	margin-top: -300px;
 }
 
 #center{
 	margin-left: 200px;
+	margin-top: 100px;
+	
+}
+.mediam,.pragraph{
+  padding: 15px;
 }
 .wep{
-	margin-left: 80px;
+	margin-left: -316px;
 }
 
 
+.car{
+	height: 200px;
+	margin-top: 100px;
+}
+
+
+footer{
+	margin: auto;
+	margin-bottom: auto;
+	background-color: #F5F5F5;
+	height: 300px;
+	border: solid 1px #F5F5F5;
+	color: #777;
+}
+.archidu{
+	margin-right: auto;
+}
+.colon{
+	margin-left: auto;
+}
+.contact{
+	margin-right: 20px;
+}
+.pay{
+	margin-left: 20px;
+}
+.colon{
+	color: #777;
+}
+.size{
+
+}
 
 
 
