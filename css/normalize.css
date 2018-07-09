@@ -22,24 +22,21 @@ html {
 
 body {
   margin: 0;
-	color: #777;
-  max-width: 1308px;
+  color: #777;
   width: 100%;
   
 }
 
 
-.header{
+
+header{
 	background-color: #F5F5F5;
 	height: 100px;
 	position: relative;
 	background-image: url(../img/logo-bebe.svg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 210px 80px;
-	
-	
-	
+	background-size: 210px 80px;	
 }
 
 
@@ -62,6 +59,8 @@ h6{
 #center-image{
 	margin-left: 1px;
 	margin-top: -300px;
+	max-width: 500px;
+	width: 100%;
 }
 
 #center{
@@ -96,6 +95,7 @@ footer{
 }
 .colon{
 	margin-left: auto;
+	color: #777;
 }
 .contact{
 	margin-right: 20px;
@@ -103,16 +103,45 @@ footer{
 .pay{
 	margin-left: 20px;
 }
-.colon{
-	color: #777;
+
+
+
+@media (max-width: 575.98px){
+	body{
+		background-color: white;
+	}
+	.header{
+		display: none;
+		background-image: url(../img/logo-bebe.svg);
+		background-color: white;
+
+	}
+	.colon-1{
+		display: none;
+		
+	}
+	.colabration{
+		flex-direction: column;
+		width: 100%;
+	}
+	#center{
+		margin: 0;
+		width: 100%;
+	}
 }
-.size{
 
+
+@media (max-width: 991.98px){
+	.header{
+		display: none;
+		background-image: url(../img/logo-bebe.svg);
 }
-
-
-
-
+	.colon-1{
+		display: none;
+		
+	}
+	
+}
 
 
 
