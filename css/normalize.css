@@ -22,12 +22,144 @@ html {
 
 body {
   margin: 0;
+  color: #777;
+  width: 100%;
+  
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
+
+
+header{
+	background-color: #F5F5F5;
+	height: 100px;
+	position: relative;
+	background-image: url(../img/logo-bebe.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 210px 80px;	
+}
+
+
+
+.colon-1{
+	margin-top: 6px;
+	color: #777;
+	border-bottom: solid 1px #F5F5F5;
+}
+h6{
+	background-color: #F5F5F5;
+	width: 80px;
+	
+}
+
+
+.colabration{
+	display: flex;
+}
+#center-image{
+	margin-left: 1px;
+	margin-top: -300px;
+	max-width: 500px;
+	width: 100%;
+}
+
+#center{
+	margin-left: 200px;
+	margin-top: 100px;
+	
+}
+.mediam,.pragraph{
+  padding: 15px;
+}
+.wep{
+	margin-left: -316px;
+}
+
+
+.car{
+	height: 200px;
+	margin-top: 100px;
+}
+
+
+footer{
+	margin: auto;
+	margin-bottom: auto;
+	background-color: #F5F5F5;
+	height: 300px;
+	border: solid 1px #F5F5F5;
+	color: #777;
+}
+.archidu{
+	margin-right: auto;
+}
+.colon{
+	margin-left: auto;
+	color: #777;
+}
+.contact{
+	margin-right: 20px;
+}
+.pay{
+	margin-left: 20px;
+}
+
+
+
+@media (max-width: 575.98px){
+	body{
+		background-color: white;
+	}
+	.header{
+		display: none;
+		background-image: url(../img/logo-bebe.svg);
+		background-color: white;
+
+	}
+	.colon-1{
+		display: none;
+		
+	}
+	.colabration{
+		flex-direction: column;
+		width: 100%;
+	}
+	#center{
+		margin: 0;
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 991.98px){
+	.header{
+		display: none;
+		background-image: url(../img/logo-bebe.svg);
+}
+	.colon-1{
+		display: none;
+		
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1 {
   font-size: 2em;
